@@ -10,12 +10,12 @@
    train_path: E:/simple_app/data/processed/train_winequality.csv
    test_path: E:/simple_app/data/processed/test_winequality.csv
    test_size: 0.2
- reports:
-   scores: E:/simple_app/reports/scores.json
-   params: E:/simple_app/reports/params.json
  estimators:
    ElasticNet:
      params:
        alpha: 0.9
        l1_ratio: 0.4
  model_dir: E:/simple_app/Saved_models
+ reports:
+   scores: E:/simple_app/reports/scores.json
+   params: E:/simple_app/reports/params.json

@@ -50,9 +50,8 @@ def train_and_evaluate(config_path):
         json.dump(scores,f,indent=4)
     with open(params_file,"w") as f:
         params={
-            "rmse":rmse,
-            "mae":mae,
-            "r2_score":r2score
+            "alpha":alpha,
+            "l1_ratio":l1_ration,
         }
         json.dump(params,f,indent=4)
     os.makedirs(model_dir,exist_ok=True)
