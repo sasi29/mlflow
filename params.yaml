@@ -19,3 +19,4 @@
  reports:
    scores: E:/simple_app/reports/scores.json
    params: E:/simple_app/reports/params.json
+ webapp_model_dir: prediction_service/model/model.joblib
